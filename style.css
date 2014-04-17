@@ -1,0 +1,352 @@
+/*
+Theme Name:     CORD Network Theme (CBOX Child)
+Theme URI:      http://mikestumpf.com/
+Description:    Child theme for the Commons in a Box theme
+Author:         mstumpf
+Author URI:     http://mikestumpf.com/
+Template:       cbox-theme
+Version:        0.1
+*/
+@import url("../cbox-theme/style.css");
+@font-face {
+    font-family: 'futura_ltregular';
+    src: url("fonts/futuralt-webfont.eot");
+    src: url("fonts/futuralt-webfont.eot?#iefix) format('embedded-opentype'"),
+         url("fonts/futuralt-webfont.woff") format('woff'),
+         url("fonts/futuralt-webfont.ttf") format('truetype'),
+         url("fonts/futuralt-webfont.svg#futura_ltregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {font-family: futura_ltregular!important;}
+#menu-item-423 a {cursor:default;}
+#menu-item-423 ul a{cursor:auto;}
+h1 .post-edit-link{font-size:12px!important;margin-left:10px;color:#4183C4!important;}
+.template-header, .workspace-content{margin-bottom:30px;border-bottom: 1px black dotted;padding-bottom: 30px;}
+#wp-admin-bar-my-account .ab-sub-wrapper {height:95px;}
+div.bbp-template-notice.info, .bbp-forums-list, .bbp-topic-merge-link, .bbp-topic-sticky-link, .bbp-author-ip, .bbp-topic-super-sticky-link, 
+.bbp-reply-permalink, #bbp_forum_parent_id, #favorites-personal-li, #blogs-personal-li, #subscriptions-personal-li, #delete-account-personal-li
+{display:none!important;}
+li.bbp-forum-reply-count, li.bbp-forum-topic-count, li.bbp-forum-forum-count{float:right!important;}
+li.bbp-forum-forum-count{text-align: center; width: 10%;}
+.bbp-form label {cursor:default!important;}
+#url-title {min-width:20px;border-bottom:1px solid black;}
+#urllabel {cursor:default;}
+.no-styling {cursor:default!important;color: grey!important;}
+.no-styling:active {background: -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%)!important;}
+#header {
+	background-image: none!important;
+	border: 1px solid rgba(0,0,0,.2);
+	border-top-style:none!important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #333333!important;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#1A1A1A))!important;
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #333333,  #1A1A1A)!important;
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #333333, #1A1A1A)!important;
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #333333, #1A1A1A)!important;
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #333333, #1A1A1A)!important;
+	-moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	opacity:1!important;
+	z-index: 1!important;
+	height: 150px!important;
+}
+#header:before {
+	opacity:0!important;
+}
+body {
+	background-image: url("http://mikestumpf.com/cord/wp-content/themes/cbox-theme/assets/images/textures/small_tiles.png")!important;
+}
+#icext-16f6e2e3 a img {
+	background:white;
+	padding: 10px;
+	width: 250px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#main-menu-wrap .main-menu { 
+	font-size: 20px!important;
+	margin-top: -15px;
+	float:left!important;
+}
+.main-menu {
+	padding:40px!important;
+}
+
+#linkcat-0 .xoxo.blogroll {
+	list-style-position:outside
+}
+
+#linkcat-0 .xoxo.blogroll li a, .rotatingtweet p a {
+	color:#9E0508!important;
+}
+
+.footer-wrap.row {
+	background-image: none!important;
+	border-top-style:none!important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background:#FAFAFA;
+	-moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+	opacity:1!important;
+	z-index: 1!important;
+	border-bottom:none!important;
+}
+#main-menu-wrap, #main-menu-wrap .sub-menu, .base-menu ul ul li {
+	padding:0!important;
+}
+.base-menu ul li.current_page_item a, .base-menu ul li.current-menu-item a, .main-menu ul a:hover, .top-wrap .sub-menu li a:hover {
+	background: #660033!important;
+}
+
+.main-menu ul a, h1 {
+	font-family: futura_ltregular!important;
+	text-transform: uppercase;
+}
+
+.main-menu ul a {
+	color: #FFF!important;
+	font-style: normal!important;
+}
+
+.base-menu ul li {
+	border-right: white 1px solid;
+	padding-left: 10px;
+}
+
+.base-menu ul li:last-child, .base-menu ul li ul li{
+	border-right:none;
+}
+
+.base-menu li li a span {
+	text-transform: lowercase;
+	font-family: Georgia, Serif;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.top-wrap .sub-menu {
+	background-image:none!important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border-bottom:0!important;
+	border-top:0!important;
+	margin-top:10px!important;
+}
+.base-menu ul ul li a {
+	width:180px!important;
+}
+.base-menu ul ul li a:hover {
+	padding-left:10px!important;
+}
+#content-full {
+	padding:50px 100px 100px 100px!important;
+}
+.page-title {
+	font-size: 40px!important;
+}
+.entry-content, .entry p, .entry h3,  #activate-page p{
+	margin-left: 30px;
+}
+
+a, h2{
+	font-family: Georgia, Serif!important;
+	font-style: italic;
+}
+
+a {
+	color:#9E0508;
+}
+
+p {
+	font-family: Georgia, Serif!important;
+}
+
+#logo-image {
+	width:250px;
+	background: white;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 20px black;
+}
+#top-homepage {
+	margin-bottom:0!important;
+	padding-bottom:30px!important;
+}
+
+.home-page #content {
+	padding-bottom:0!important;
+}
+
+#flex-slider-wrap-full {
+	padding-top:30px;
+}
+
+body {
+	border-top:none!important;
+}
+
+#facebook-logo{
+	height: 47px;
+	padding: 10px;
+	border-left: 1px solid white;
+	margin-top: 15px;
+	margin-left: -3px;
+}
+
+#twitter-logo {
+	width: 40px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 3px;
+}
+
+.social-media-icons {
+	position: absolute;
+	left: -1px;
+	background-color: #333333!important;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333333), to(#1A1A1A))!important;
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #333333,  #1A1A1A)!important;
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #333333, #1A1A1A)!important;
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #333333, #1A1A1A)!important;
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #333333, #1A1A1A)!important;
+	width: 80px;
+	height: 80px;
+	border-radius: 20px;
+	top: 110px;
+	box-shadow: 0px 0px 20px black;
+}
+
+.base-menu ul li.current_page_item a, .base-menu ul li.current-menu-item a {
+	font-weight:normal!important;
+}
+
+ul.item-list li img.avatar {
+	width: 50px;
+	height: 50px;
+}
+
+ul.item-list div.item-avatar {
+	width: 70px;
+}
+
+.member-info {
+	width: 70%; 
+	margin-left: 370px;
+	margin-top: -70px;
+}
+
+.inline-block {
+	display:inline-block;
+}
+
+.profile-fields td:nth-child(2), .member-info{
+	color: #777;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.member-info h5 {
+	color: #444;
+	font-style:normal;
+}
+
+#profile-nav-menu a {
+	color:#9E0508!important;
+	font-weight: normal;
+}
+
+#profile-edit-form input {
+	width:350px
+}
+
+#field_4, #field_3{
+	height: 100px;
+}
+
+.social-media-share {
+	text-align: center;
+	color: #777;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.social-share-icons {
+	width: 40px;
+	margin-left: 10px;
+}
+
+#homepage-top-right {
+	margin-top: 90px;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.tag-box {
+	margin-top: 35px;
+}
+
+.footer-widget article h4 {
+	background: #660033;
+	border-radius: 10px;
+	padding-left: 20px;
+}
+
+#footer .footer-widget{
+	color:#444!important;
+	text-shadow: none!important;
+}
+
+#footer .footer-widget a {
+	color:#9E0508!important;
+}
+
+#footer .widget_tag_cloud a{
+	color: #555!important;
+}
+
+#footer-widget-middle {
+	margin-left:6px;
+}
+
+#activate-page form {
+	margin-left: 30px;
+	padding:20px 40px 40px 0;
+}
+
+.flex-caption h3 {
+	margin: 0;
+}
+
+.flex-caption p {
+	height: 40px;
+	overflow:hidden;
+}
+
